@@ -13,6 +13,7 @@ int main()
     cout<<"Enter Paragraph\n\n";
     cin.getline(para,200);
     cout<<para<<"\n\n";
+    
     cout<<"---------------------------------------------\n";
     cout<<"\t Text Analysis\n";
     cout<<"---------------------------------------------\n\n";
