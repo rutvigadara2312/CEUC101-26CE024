@@ -34,7 +34,7 @@ int main()
         }
     }
     ch = i;
-    if(para[0]!=' '){ // if first word is not space word++
+    if(para[0]!=' '){ // if first character is not space word++
         word++;
     }
     spe_ch = ch-space-digits-alphabets;
@@ -130,7 +130,7 @@ int main()
                 break;
                 }
             }
-            else{break;}//to break the loop if first letter is not same
+            else{break;}//to break the loop when the character is not same
         }
     }
     if(found==true){
