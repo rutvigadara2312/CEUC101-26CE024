@@ -21,9 +21,9 @@ void reverse_num(int n)
 {
     if(n==0)
         return;
-    cout<<n%10;
-    sum = sum + (n%10);
-    reverse_num(n/10);
+    cout<<n%10;//to get last digit every time
+    sum = sum + (n%10);// we will get digits one by one and then we will add them in sum
+    reverse_num(n/10);//to get rest number after removing the last digit 
 
 }
 
@@ -32,7 +32,7 @@ void binary(int n)
     if(n==0)
         return;
 
-    binary(n/2);
+    binary(n/2);// here we divided the number and get remainder evrerytime 
     cout<<n%2;
 }
     int main()
